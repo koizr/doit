@@ -32,3 +32,10 @@ yarn run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## deploy
+
+```sh:doit/
+yarn build
+firebase deploy --only hosting:doit-koizr
+```
